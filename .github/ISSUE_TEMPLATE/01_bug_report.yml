@@ -1,0 +1,16 @@
+name: Report a bug or an issue
+description: Report a bug or an issue in Ockam
+title: 'bug: '
+body:
+  - type: textarea
+    attributes:
+      label: Current Behavior
+      description: A clear description.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Desired Behavior
+      description: A clear description.
+    validations:
+      required: true
