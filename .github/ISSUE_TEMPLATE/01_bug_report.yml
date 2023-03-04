@@ -1,5 +1,5 @@
 name: Report an issue
-description: Report a bug or an issue in Ockam
+description: Report an issue or bug in Ockam
 body:
   - type: textarea
     attributes:
