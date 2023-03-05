@@ -1,5 +1,5 @@
-# Observed behavior
-
 # Steps to reproduce
+
+# Observed behavior
 
 # Expected behavior
