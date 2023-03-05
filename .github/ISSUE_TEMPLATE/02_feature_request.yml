@@ -1,5 +1,5 @@
 name: Request a new feature
-description: Request a new feature or enhancement to Ockam
+description: Propose a new feature or suggest an enhancement to Ockam.
 body:
   - type: textarea
     attributes:
