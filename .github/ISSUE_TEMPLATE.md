@@ -1,3 +1,5 @@
-# Current Behavior
+# Observed behavior
 
-# Desired Behavior
+# Steps to reproduce
+
+# Expected behavior
