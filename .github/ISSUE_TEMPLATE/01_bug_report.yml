@@ -1,5 +1,5 @@
 name: Report an issue
-description: Create a report to help us improve Ockam.
+description: If you expereince something unexpected, please create a report to help us improve Ockam.
 body:
   - type: input
     attributes:
