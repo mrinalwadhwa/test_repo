@@ -4,12 +4,12 @@ body:
   - type: textarea
     attributes:
       label: Current Behavior
-      description: A clear description.
+      description: "Please describe the current behaviour:"
     validations:
       required: true
   - type: textarea
     attributes:
       label: Desired Behavior
-      description: A clear description.
+      description: "Please describe this could be better:"
     validations:
       required: true
