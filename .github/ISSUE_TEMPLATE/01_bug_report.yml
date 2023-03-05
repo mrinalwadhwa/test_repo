@@ -27,6 +27,6 @@ body:
     attributes:
       label: Ockam Version
       description: "Please tell us the version of Ockam Command or Library that you’re using:"
-      placeholder: "Output of `ockam --version` and the version in your Cargo.toml"
+      placeholder: "Output of `ockam --version` and/or the ockam crate version in your Cargo.toml"
     validations:
       required: true
