@@ -3,7 +3,7 @@ description: Create a report to help us improve Ockam.
 body:
   - type: input
     attributes:
-      label: Okam Version
+      label: Ockam Version
       description: Please tell us the version of Ockam Command or Library that you’re using.
       placeholder: 
     validations:
