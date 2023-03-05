@@ -3,13 +3,13 @@ description: Suggest a new feature or enhancement to Ockam.
 body:
   - type: textarea
     attributes:
-      label: Current Behavior
+      label: Current behavior
       description: "Please describe the current behaviour:"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Desired Behavior
+      label: Desired behavior
       description: "Please describe this could be better:"
     validations:
       required: true
