@@ -1,15 +1,21 @@
 name: Report an issue
-description: Report an issue or bug in Ockam
+description: "If something isn't working the way you expect it to"
 body:
   - type: textarea
     attributes:
-      label: Current Behavior
-      description: A clear description.
+      label: Observed Behavior
+      description: A clear and concise description of what you observed is.
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Desired Behavior
+      label: Steps to reproduce
+      description: A clear and concise description of what you observed is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
       description: A clear description.
     validations:
       required: true
