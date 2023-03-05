@@ -12,9 +12,9 @@ body:
       label: Steps to reproduce
       description: A clear and concise description of what you observed is.
       placeholder: |
-        - Run '...'
-        - Then run '....'
-        - See the following error '...'
+        * Run '...'
+        * Then run '....'
+        * See the following error '...'
     validations:
       required: true
   - type: textarea
