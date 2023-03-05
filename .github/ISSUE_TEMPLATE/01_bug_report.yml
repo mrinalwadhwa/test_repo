@@ -1,17 +1,16 @@
 name: Report an issue
 description: Create a report to help us improve Ockam.
 body:
-  - type: input
+  - type: textarea
     attributes:
-      label: Ockam Version
-      description: Please tell us the version of Ockam Command or Library that you’re using.
-      placeholder: 
+      label: Observed behavior
+      description: Please describe what you observed:
     validations:
       required: true
   - type: textarea
     attributes:
       label: Steps to reproduce
-      description: A clear and concise description of what you observed is.
+      description: Please tell us the series of commands or code snippets you ran:
       placeholder: |
         1. Run '...'
         2. Then run '...'
@@ -20,13 +19,14 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Observed behavior
-      description: A clear and concise description of what you observed is.
+      label: Expected behavior
+      description: Please describe what you were you expexting to happen instead:
     validations:
       required: true
-  - type: textarea
+  - type: input
     attributes:
-      label: Expected behavior
-      description: A clear description.
+      label: Ockam Version
+      description: Please tell us the version of Ockam Command or Library that you’re using:
+      placeholder: 
     validations:
       required: true
