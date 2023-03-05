@@ -1,15 +1,13 @@
 name: Report an issue
 description: Create a report to help us improve Ockam
 body:
-  - type: checkboxes
+  - type: input
     attributes:
-      label: Prerequisites
-      description: Please ensure you have completed all of the following.
-      options:
-        - label: I agree to follow the [Code of Conduct](https://github.com/build-trust/.github/blob/main/CODE_OF_CONDUCT.md).
-          required: true
-        - label: I have searched for [existing issues](https://github.com/build-trust/ockam/issues) that already report this problem, without success.
-          required: true
+      label: Okam Version
+      description: Please tell us the version of Ockam Command or Library that you’re using.
+      placeholder: 
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Steps to reproduce
