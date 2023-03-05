@@ -3,10 +3,9 @@ contact_links:
   - name: Ask a question
     url: https://github.com/build-trust/ockam/discussions/new
     about: Ask questions and discuss with other Ockam community members
-  - name: Meet other comminity members
-    url: https://discord.gg/RAbjRr3kds
-    about: Ask questions and discuss with other Ockam community members  
   - name: Learn how to contribute
     url: https://github.com/build-trust/.github/blob/main/CONTRIBUTING.md
     about: Learn how to contribute to Ockam
- 
+  - name: Join us on Discord
+    url: https://discord.gg/RAbjRr3kds
+    about: Meet other Ockam community members
